@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twayayi Travel & Tours - Travel is Our Life!</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/260978933662?text=Hello%20Twayayi%20Travel%20%26%20Tours!%20I%20would%20like%20to%20inquire%20about%20your%20services." class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Twayayi Travel & Tours Logo" class="logo-img">
+                <h1>Twayayi <span>Travel & Tours</span></h1>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#promotions">Promotions</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Slideshow -->
+    <section class="hero" id="home">
+        <div class="slideshow">
+            <div class="slide active" style="background-image: url('LadyL.jpeg');">
+                <div class="slide-content">
+                    <h2>Travel is Our Life!</h2>
+                    <p>We provide guided tours both local and international and we make travel easy. Experience the breathtaking Victoria Falls with us.</p>
+                    <a href="#booking" class="cta-button">Book Your Adventure Today</a>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: url('vicf.jpg');">
+                <div class="slide-content">
+                    <h2>Unforgettable Wildlife Safaris</h2>
+                    <p>Discover Zambia's incredible wildlife with our expert guides. From walking safaris to game drives, we offer unique wildlife experiences.</p>
+                    <a href="#booking" class="cta-button">Book Your Safari</a>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: url('elflad.jpg');">
+                <div class="slide-content">
+                    <h2>Adventure Awaits in Zambia</h2>
+                    <p>From white water rafting to bungee jumping, we offer thrilling adventure activities for every type of traveler.</p>
+                    <a href="#activities" class="cta-button">Explore Activities</a>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: url('vicam.jpg');">
+                <div class="slide-content">
+                    <h2>Luxury Accommodations</h2>
+                    <p>Stay at Zambia's finest hotels and lodges. We offer exclusive packages at Royal Livingstone and Avani Hotels.</p>
+                    <a href="#promotions" class="cta-button">View Promotions</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slideshow-controls">
+            <div class="slideshow-dot active" data-slide="0" aria-label="Go to slide 1"></div>
+            <div class="slideshow-dot" data-slide="1" aria-label="Go to slide 2"></div>
+            <div class="slideshow-dot" data-slide="2" aria-label="Go to slide 3"></div>
+            <div class="slideshow-dot" data-slide="3" aria-label="Go to slide 4"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Guided Tours</h3>
+                        <p>Explore Zambia's wonders with our expert local guides. From Victoria Falls to local markets, we provide immersive experiences.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Accommodation Reservation</h3>
+                        <p>We book the best hotels and lodges for your stay, from luxury at Royal Livingstone to family-friendly Avani Hotel.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shuttle-van"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Transport Services</h3>
+                        <p>Airport shuttle, border transfers, and local transportation to ensure smooth travels throughout your journey.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Solo & Group Travel</h3>
+                        <p>Customized packages for solo travelers, families, and groups. We cater to all travel styles and preferences.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Tailor-Made Packages</h3>
+                        <p>Create your dream vacation with our customized itineraries including activities, accommodations, and transportation.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>And Much More</h3>
+                        <p>Local guiding tours, activity bookings, and comprehensive travel planning to make your trip unforgettable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities">
+        <div class="container">
+            <h2 class="section-title">Local Activities</h2>
+            <div class="activities-container">
+                <div class="activities-columns">
+                    <div class="activity-category">
+                        <h4>Adventure Activities</h4>
+                        <ul>
+                            <li>White Water Rafting</li>
+                            <li>Bungee Jumping</li>
+                            <li>Bridge Swing/Slide</li>
+                            <li>Microlight Flights</li>
+                            <li>Helicopter Rides</li>
+                            <li>Zip Line / Flying Fox</li>
+                            <li>Gorge Swing</li>
+                            <li>Abseil</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="activity-category">
+                        <h4>Cultural Experiences</h4>
+                        <ul>
+                            <li>Mukuni Village Tour</li>
+                            <li>Maramba Cultural Village</li>
+                            <li>Livingstone Museum</li>
+                            <li>Historical Railway Museum</li>
+                            <li>Guided Tour of local markets</li>
+                            <li>Mukuni Boma Dinner</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="activity-category">
+                        <h4>Wildlife & Nature</h4>
+                        <ul>
+                            <li>Safari Game Drive</li>
+                            <li>Rhino Walk</li>
+                            <li>River Safari Cruise</li>
+                            <li>Walking Safari</li>
+                            <li>Bird Watching</li>
+                            <li>Animal Interactions</li>
+                            <li>Elephant Back Safari</li>
+                            <li>Canoeing</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="activity-category">
+                        <h4>Relaxation & Scenic</h4>
+                        <ul>
+                            <li>Sunset Cruises</li>
+                            <li>Livingstone Island Tour</li>
+                            <li>Swimming Under The Falls</li>
+                            <li>Bike Rides</li>
+                            <li>Pool Access</li>
+                            <li>Tram Ride</li>
+                            <li>Fishing Trip</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotions Section -->
+    <section id="promotions">
+        <div class="container">
+            <h2 class="section-title">Summer Promotions</h2>
+            <div class="promotions-grid">
+                <div class="promotion-card">
+                    <div class="promotion-header">
+                        <h3>Royal Livingstone Hotel</h3>
+                        <p>Summer Getaway Package</p>
+                    </div>
+                    <div class="promotion-price">K14,500 - K16,000</div>
+                    <div class="promotion-details">
+                        <p><strong>Premier room:</strong> K14,500<br>
+                        <strong>Deluxe room:</strong> K16,000</p>
+                        
+                        <ul>
+                            <li>3 nights accommodation</li>
+                            <li>Buffet breakfast</li>
+                            <li>Access to Victoria Falls</li>
+                            <li>Sunset boat cruise</li>
+                            <li>Complimentary 24 hour use of fitness center and WiFi</li>
+                        </ul>
+                        
+                        <div class="validity">
+                            <p><strong>Valid until:</strong> 15th December 2024</p>
+                            <p><small>Subject to availability, Not available over Public Holidays</small></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="promotion-card">
+                    <div class="promotion-header">
+                        <h3>Avani Hotel</h3>
+                        <p>Family Package</p>
+                    </div>
+                    <div class="promotion-price">K11,000</div>
+                    <div class="promotion-details">
+                        <p><strong>For:</strong> 2 adults and 2 children under 12 years</p>
+                        
+                        <ul>
+                            <li>3 nights accommodation</li>
+                            <li>Buffet breakfast</li>
+                            <li>Access to Victoria Falls</li>
+                            <li>Sunset boat cruise</li>
+                            <li>Complimentary 24-Hour use of Fitness center and Wifi</li>
+                        </ul>
+                        
+                        <div class="validity">
+                            <p><strong>Valid until:</strong> 15th December 2024</p>
+                            <p><small>Subject to availability, Not available over Public Holidays</small></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="promotion-card">
+                    <div class="promotion-header">
+                        <h3>Avani Hotel</h3>
+                        <p>Single/Double Package</p>
+                    </div>
+                    <div class="promotion-price">K7,350 - K9,200</div>
+                    <div class="promotion-details">
+                        <p><strong>Single Occupancy:</strong> K7,350<br>
+                        <strong>Double Occupancy:</strong> K9,200</p>
+                        
+                        <ul>
+                            <li>3 nights accommodation</li>
+                            <li>Buffet breakfast</li>
+                            <li>Access to Victoria Falls</li>
+                            <li>Sunset boat cruise</li>
+                            <li>Complimentary 24 hour use of fitness center and WiFi</li>
+                        </ul>
+                        
+                        <div class="validity">
+                            <p><strong>Valid until:</strong> 15th December 2024</p>
+                            <p><small>Subject to availability, Not available over Public Holidays</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking-section" id="booking">
+        <div class="container">
+            <h2 class="section-title">Book Your Adventure</h2>
+            <div class="booking-form-container">
+                <div class="booking-form">
+                    <h3>Request a Booking</h3>
+                    <form id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="country">Country of Residence</label>
+                                <input type="text" id="country" name="country">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="checkIn">Check-in Date *</label>
+                                <input type="date" id="checkIn" name="checkIn" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="checkOut">Check-out Date *</label>
+                                <input type="date" id="checkOut" name="checkOut" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="adults">Adults *</label>
+                                <select id="adults" name="adults" required>
+                                    <option value="1">1 Adult</option>
+                                    <option value="2" selected>2 Adults</option>
+                                    <option value="3">3 Adults</option>
+                                    <option value="4">4 Adults</option>
+                                    <option value="5+">5+ Adults</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="children">Children</label>
+                                <select id="children" name="children">
+                                    <option value="0" selected>No Children</option>
+                                    <option value="1">1 Child</option>
+                                    <option value="2">2 Children</option>
+                                    <option value="3">3 Children</option>
+                                    <option value="4+">4+ Children</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="accommodation">Preferred Accommodation</label>
+                            <select id="accommodation" name="accommodation">
+                                <option value="">Select Accommodation</option>
+                                <option value="royal-livingstone">Royal Livingstone Hotel</option>
+                                <option value="avani">Avani Hotel</option>
+                                <option value="other">Other (Please specify in message)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interests">Interests & Activities</label>
+                            <textarea id="interests" name="interests" placeholder="Please tell us about the activities you're interested in (e.g., Victoria Falls tour, safari, adventure activities, etc.)"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional Message</label>
+                            <textarea id="message" name="message" placeholder="Any special requests or additional information..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit Booking Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="vicbe.jpg" alt="Victoria Falls">
+                    <div class="gallery-caption">
+                        <h4>Victoria Falls</h4>
+                        <p>The magnificent Smoke that Thunders</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="ladlio.jpg" alt="Zambian Safari">
+                    <div class="gallery-caption">
+                        <h4>Wildlife Safari</h4>
+                        <p>Experience Zambia's incredible wildlife</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="zipli.jpg" alt="Adventure Activities">
+                    <div class="gallery-caption">
+                        <h4>Adventure Activities</h4>
+                        <p>Thrilling experiences for every traveler</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="acc.jpg" alt="Luxury Accommodation">
+                    <div class="gallery-caption">
+                        <h4>Luxury Accommodation</h4>
+                        <p>Stay at Zambia's finest hotels</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="Sunset.jpg" alt="Sunset Cruise">
+                    <div class="gallery-caption">
+                        <h4>Sunset Cruise</h4>
+                        <p>Relaxing cruises on the Zambezi River</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="33.jpg" alt="Cultural Experiences">
+                    <div class="gallery-caption">
+                        <h4>Cultural Experiences</h4>
+                        <p>Immerse yourself in local traditions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & About Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-about">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Ready to plan your Zambian adventure? Contact us today for personalized travel advice and booking assistance.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@twayayitravel.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+260 978 933662</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>18 Akapelwa Street, Room #12 Warner House, Livingstone, Zambia</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/twayayitravelandtours/" title="Instagram" target="_blank" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/twayayitravelandtours" title="Facebook" target="_blank" aria-label="Like us on Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/twayayi_travel" title="Twitter" target="_blank" aria-label="Follow us on Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://wa.me/260978933662" title="WhatsApp" target="_blank" aria-label="Message us on WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about-info">
+                    <h3>About Twayayi Travel & Tours</h3>
+                    <p>We are your seasoned local liaison in Zambia, offering an array of top-notch services throughout your stay. With our deep knowledge of local attractions and partnerships with premier accommodations, we create unforgettable travel experiences.</p>
+                    <p>Whether you're traveling solo, with family, or in a group, we tailor every aspect of your journey to match your preferences. From adventure activities to relaxing getaways, we handle all the details so you can focus on making memories.</p>
+                    <p><strong>Our mission:</strong> To make travel easy, enjoyable, and accessible to everyone visiting Zambia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Twayayi <span>Travel & Tours</span></h2>
+                    <p>Travel is Our Life! We make travel easy.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#promotions">Promotions</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@twayayitravel.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +260 978 933662</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 18 Akapelwa Street, Livingstone, Zambia</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Twayayi Travel & Tours. All rights reserved. | Travel is Our Life!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
